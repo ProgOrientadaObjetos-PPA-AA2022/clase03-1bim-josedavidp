@@ -11,8 +11,8 @@ public class Hospital {
     private double presupuesto;
     
     // métodos establecer para cada atributo
-    public void establecerNombre(String n){
-        nombre = n;
+    public void establecerNombre(String n){ //"Hospital del Seguro"
+        nombre = n; //"Hospital del Seguro"
     }
     
     public void establecerNumeroCamas(int n){
@@ -24,7 +24,7 @@ public class Hospital {
     }
     
     public String obtenerNombre(){
-        return nombre;
+        return nombre; //"Hospital del Seguro"
     }
     
     public int obtenerNumeroCamas(){

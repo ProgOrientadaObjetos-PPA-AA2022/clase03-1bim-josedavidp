@@ -18,5 +18,10 @@ public class Ejecutable {
         // Se presenta valores en pantalla
         System.out.printf("%s - %d - %.2f\n", hospital.nombre,
                 hospital.numeroCamas, hospital.presupuesto);
+
+        Hospital hospital2 = new Hospital();
+        hospital2.nombre = "Hospital de la Universidad";
+        hospital2.numeroCamas = 200;
+        hospital2.presupuesto = 7654321.12;
     }
 }

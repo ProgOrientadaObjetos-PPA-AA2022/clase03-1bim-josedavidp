@@ -6,7 +6,7 @@
 package manejoclases02;
 
 public class Hospital {
-    private String nombre;
-    private int numeroCamas;
-    private double presupuesto;
+    /*private*/ String nombre; //Clases privadas, se tienen que borrar o poner public
+    /*private*/ int numeroCamas;
+    /*private*/ double presupuesto;
 }
